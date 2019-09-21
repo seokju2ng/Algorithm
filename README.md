@@ -1,6 +1,6 @@
 # Algorithm
 
-- language : C, C++, Java
+- language : C, C++, Java, JavaScript
 
 1. Baekjoon Online Judge : https://www.acmicpc.net/user/ehddnwnd
 
