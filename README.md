@@ -9,4 +9,4 @@
   2. Programmers Coding Test Practice : https://programmers.co.kr/learn/challenges
   
 ***
-<p align="center">Copyright&copy; 2019. OrganicStack. All rights reserved.</p>
+<p align="center">Copyright&copy; Seokjung Kim. All rights reserved.</p>
