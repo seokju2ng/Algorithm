@@ -7,3 +7,6 @@
 - Reference Website with Algorithm practice problem
   1. Baekjoon Online Judge : https://www.acmicpc.net/user/ehddnwnd
   2. Programmers Coding Test Practice : https://programmers.co.kr/learn/challenges
+  
+***
+<p align="center">Copyright&copy; 2019. OrganicStack. All rights reserved.</p>
