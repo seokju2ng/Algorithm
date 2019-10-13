@@ -1,4 +1,4 @@
-package naver;
+package naver.openrecruitment;
 
 import java.util.LinkedList;
 
