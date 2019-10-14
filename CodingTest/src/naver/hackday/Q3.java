@@ -1,5 +1,8 @@
 package naver.hackday;
 
+/* 처음에 풀던 방식 (시간을 많이 잡아먹음)
+ * 재귀로 하면 시간이 걸릴 것 같아서 작업한 방식
+ * 하지만 풀던 도중 접근방법이 잘못되었다는 걸 느끼고 이걸 고치는 것보다 재귀로 푸는게 빠를 거라는 생각에 재귀로 방향을 바꿈 */
 //public class Q3 {
 //    private int keyNum;
 //    private int answer;
@@ -84,7 +87,7 @@ public class Q3 {
 
         /* 치환 */
         for (int i = 0; i < buttons.length; i++) {
-            if (command.contains(buttons[i])) {  // 스킬이 command에 포함되어 있다면
+            if (command.contains(buttons[i])) {  // 스킬이 command에 포함되어 있다면 치환 시작
                 String skill = buttons[i];
                 int cIdx = 0;       // command의 비교용 index
                 int sIdx = 0;       // skill의 비교용 index
@@ -100,7 +103,7 @@ public class Q3 {
                         break;
                     }
                     if (command.charAt(cIdx) == skill.charAt(sIdx)) {   // 문자가 같으면 command와 skill의 다음 문자 비교
-                        if (startIdx == -1) {   // 스킬의 시작 인덱스를 저장하지 않았다면
+                        if (startIdx == -1) {   // 스킬의 시작 인덱스를 저장하지 않았다면 저장한다.
                             startIdx = cIdx;
                         }
                         cIdx++;
@@ -115,3 +118,4 @@ public class Q3 {
         }
     }
 }
+
