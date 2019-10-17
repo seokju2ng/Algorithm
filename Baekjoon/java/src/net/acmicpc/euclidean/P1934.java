@@ -6,7 +6,7 @@
     http://www.acmicpc.net/problem/1934
     BOJ_P1934_최소공배수
 ** */
-package net.acmicpc;
+package net.acmicpc.euclidean;
 
 import java.util.Scanner;
 

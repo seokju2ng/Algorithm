@@ -6,7 +6,7 @@
     http://www.acmicpc.net/problem/9613
     BOJ_P9613_GCD 합
 ** */
-package net.acmicpc;
+package net.acmicpc.euclidean;
 
 import java.util.Scanner;
 
@@ -30,7 +30,7 @@ public class P9613 {
         }
     }
 
-    private static int gcd(int x, int y){
+    private static int gcd(int x, int y) {
         int remainder = y;
         while (true) {
             if (x % y == 0) {

@@ -6,7 +6,7 @@
     http://www.acmicpc.net/problem/1181
     BOJ_P1181_단어 정렬
 ** */
-package net.acmicpc;
+package net.acmicpc.sort;
 
 import java.util.Arrays;
 import java.util.Scanner;

@@ -6,7 +6,7 @@
     http://www.acmicpc.net/problem/1929
     BOJ_P1929_소수 구하기
 ** */
-package net.acmicpc;
+package net.acmicpc.eratosthenes;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -30,7 +30,7 @@ public class P1929 {
             }
         }
         for (Integer result : prime) {
-            if(result >= m)
+            if (result >= m)
                 System.out.println(result);
         }
     }
