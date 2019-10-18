@@ -3,7 +3,7 @@
     Date: 2019.10.18.
     Time: 4:54 PM
     java/P11650.java
-    http://www.acmicpc.net/problem/P11650
+    http://www.acmicpc.net/problem/11650
     BOJ_P11650_좌표 정렬하기
 ** */
 package net.acmicpc.sort;

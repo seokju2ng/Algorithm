@@ -3,7 +3,7 @@
     Date: 2019.10.18.
     Time: 4:57 PM
     java/P10814.java
-    http://www.acmicpc.net/problem/P10814
+    http://www.acmicpc.net/problem/10814
     BOJ_P10814_나이순 정렬
 ** */
 package net.acmicpc.sort;

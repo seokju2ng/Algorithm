@@ -3,7 +3,7 @@
     Date: 2019.10.18.
     Time: 5:46 PM
     java/P1904.java
-    http://www.acmicpc.net/problem/P1904
+    http://www.acmicpc.net/problem/1904
     BOJ_P1904_01타일
 ** */
 package net.acmicpc.dp;
@@ -34,7 +34,6 @@ public class P1904 {
      * 커지는 수가 1, 2, 3, 4, 6, 7, 10, 11, 15, 16,... 로 홀수 번째에는 +1, 짝수 번째에는 +등차수열(1,2,3,...)로 증가
      * 결국 잘못된 풀이였음
      * */
-
 //    public static void main(String[] args) throws IOException {
 //        int n = Integer.parseInt(br.readLine());
 //        long[] dp = new long[n + 1];

@@ -3,7 +3,7 @@
     Date: 2019.10.18.
     Time: 4:28 PM
     java/P1476.java
-    http://www.acmicpc.net/problem/P1476
+    http://www.acmicpc.net/problem/1476
     BOJ_P1476_날짜 계산
 ** */
 package net.acmicpc.etc;
