@@ -11,11 +11,11 @@ public class Main {
             System.out.println(" - "+new Q1().solution(budgets[i], M[i]));
         }   // return 127, 2, 35, 2
 
-        // Q2
-        System.out.println("\n* Q2");
+        // Q2_yet
+        System.out.println("\n* Q2_yet");
         int[] n = {6, 3, 2, 4, 6, 100, 8, 10};
         int[][] times = {{7, 10}, {5, 2, 3, 7}, {5, 2, 3, 7}, {5, 2, 3, 7}, {5, 2, 3, 7}, {5, 2, 3, 7}, {3541,81654,5135,518,18947,3213,654,35165,1564,351,654,1531,651}, {5,10,15,10}};
         for (int i = 0; i < n.length; i++)
-            System.out.println(" - " + new Q2().solution(n[i], times[i])); // return 28;
+            System.out.println(" - " + new Q2_yet().solution(n[i], times[i])); // return 28;
     }
 }

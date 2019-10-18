@@ -1,5 +1,5 @@
 /* **
-    User: Seokjung Kim. 
+    User: Seokjung Kim.
     Date: 2019.10.16.
     Time: 3:52 AM
     ProgrammersPractice/Q2
@@ -10,7 +10,7 @@ package binarysearch;
 
 import java.util.Arrays;
 
-public class Q2 {
+public class Q2_yet {
     /*  틀림..    정확성 5/9     */
     public long solution(int n, int[] times) {
         Arrays.sort(times);
