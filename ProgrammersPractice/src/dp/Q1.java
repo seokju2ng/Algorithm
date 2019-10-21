@@ -1,16 +1,16 @@
+/* **
+    User: Seokjung Kim.
+    Date: 2019.10.21.
+    Time: 12:24 PM
+    ProgrammersPractice/Q1
+    동적계획법 > N으로 표현
+    https://programmers.co.kr/learn/courses/30/lessons/42895
+** */
 package dp;
 
 import java.util.ArrayList;
 
-public class ExpressN {
-    public static void main(String[] args) {
-        System.out.println(new Solution1().solution(5, 12));
-        System.out.println(new Solution1().solution(2, 11));
-        System.out.println(new Solution1().solution(5, 26));
-    }
-}
-
-class Solution1 {
+public class Q1 {
     private int answer = 9;
     private ArrayList<String> path = new ArrayList<>();
 

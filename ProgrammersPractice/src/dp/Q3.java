@@ -1,15 +1,15 @@
+/* **
+    User: Seokjung Kim.
+    Date: 2019.10.21.
+    Time: 12:26 PM
+    ProgrammersPractice/Q3
+    동적계획법 > 정수 삼각형
+    https://programmers.co.kr/learn/courses/30/lessons/431045
+** */
+
 package dp;
 
-public class IntegerTriangle {
-    public static void main(String[] args) {
-        Solution3 s = new Solution3();
-        int[][] arr = {{7}, {3,8}, {8,1,0}, {2,7,4,4}, {4,5,2,6,5}};
-        System.out.println(s.solution(arr));
-        System.out.println(s.cnt);
-
-    }
-}
-class Solution3 {
+public class Q3 {
     int cnt = 0;
     public int solution(int[][] triangle) {
         for(int i = triangle.length-2; i >= 0; i--){
@@ -24,7 +24,7 @@ class Solution3 {
 
 /* ******* DFS 재귀로 풀었는데 시간초과 ******* */
 
-//class Solution3 {
+//class Q3 {
 //    private int answer = 0;
 //    private int[][] triangle;
 //    int cnt = 0;
