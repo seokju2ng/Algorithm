@@ -30,5 +30,14 @@ public class Main {
         int m = 4, n = 3;
         int[][] puddles = {{2,2}};
         System.out.println(q4.solution(m, n, puddles));
+        System.out.println();
+
+        // Q5 : 카드 게임
+        Q5 q5 = new Q5();
+        int[][] left = {{3, 2, 5}, {2, 4, 6, 1, 8, 7, 5}, {1, 2, 3, 4}};
+        int[][] right = {{2, 4, 1}, {3, 9, 2, 8, 7, 6, 3}, {4, 1, 2, 3}};
+        for (int i = 0; i < left.length; i++)
+            System.out.println(q5.solution(left[i], right[i]));
+        System.out.println();
     }
 }
