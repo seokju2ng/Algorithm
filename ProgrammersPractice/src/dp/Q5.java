@@ -9,16 +9,17 @@
 package dp;
 
 public class Q5 {
-    private static final int MAX = 2000;
-    private int[][] dp = new int[MAX + 1][MAX + 1];
+    private int[][] dp;
     private int n;
     private int[] left;
     private int[] right;
 
     public int solution(int[] left, int[] right) {
         n = left.length;
+        dp = new int[n + 1][n + 1];
         this.left = left;
         this.right = right;
+
         for (int i = 0; i < dp.length; i++) {
             for (int j = 0; j < dp[i].length; j++) {
                 dp[i][j] = -1;
