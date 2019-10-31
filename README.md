@@ -3,7 +3,7 @@
 - 내가 푼 알고리즘 문제를 모아놓은 곳.
 
 ### 사용 언어(Languages I use)
-`Java`, `JavaScript`, `C`, `C++`, `MySQL`, `Markdown`.
+`Java` `JavaScript` `C` `C++` `MySQL` `Markdown`
 
 ### 알고리즘 공부하는 사이트(Reference Website with Algorithm practice problem)
   1. Baekjoon Online Judge : https://www.acmicpc.net/user/ehddnwnd
