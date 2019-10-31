@@ -5,9 +5,13 @@
 ### 사용 언어(Languages I use)
 `Java` `JavaScript` `C` `C++` `MySQL` `Markdown`
 
+<br>
+
 ### 알고리즘 공부하는 사이트(Reference Website with Algorithm practice problem)
   1. Baekjoon Online Judge : https://www.acmicpc.net/user/ehddnwnd
   2. Programmers Coding Test Practice : https://programmers.co.kr/learn/challenges
+
+<br>
 
 ### 풀어본 코딩테스트(Coding Tests I solved)
   1. LINE SW개발 DEVEL-UP 인턴십 공채 / 6문제 180분 / 19.09.22
