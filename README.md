@@ -1,6 +1,6 @@
 # Algorithm Repository
 
-- 이 곳은 내가 알고리즘 사이트에서 푼 문제를 기록합니다.
+- 내가 푼 알고리즘 문제를 모아놓은 곳.
 
 - Languages I use : `Java`, `JavaScript`, `C`, `C++`, `MySQL`, `Markdown`.
 
