@@ -58,8 +58,6 @@ public class Q3 {
     }
 
     private boolean isCanGo(int x, int y, int cx, int cy) {
-        return (land[x][y] > land[cx][cy] ?
-                land[x][y] - land[cx][cy] :
-                land[cx][cy] - land[x][y]) <= height;
+        return Math.abs(land[x][y] - land[cx][cy]) <= height;
     }
 }

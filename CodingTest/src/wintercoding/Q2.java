@@ -11,7 +11,7 @@ public class Q2 {
             double pow = Math.pow(2, i);
             for (int j = 0; j < pow; j++) {
                 int zerofruit = j % 2 == 0 ? 0 : 1;
-                list.add(j*2, zerofruit);
+                list.add(j * 2, zerofruit);
             }
         }
 
