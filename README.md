@@ -21,6 +21,7 @@
   3. Programmers Web Developer Online Jobfair / 3문제 120분 / 19.09.28
   4. NAVER Hack Day / 3문제 120분 / 19.10.12
   5. Programmers Winter Coding / 4문제 120분 / 19.10.26
+  6. KAKAO 인턴 코딩 테스트 / 5문제 240분 / 19.11.09
 
 ***
 <p align="center">Copyright&copy; Seokjung Kim. All rights reserved.</p>
