@@ -26,10 +26,10 @@ public class Main {
 
         System.out.println("\nQ3 : ");
         Q3 q3 = new Q3();
-        String[][] user_id = {{"frodo", "fradi", "crodo", "abc123", "frodoc"}, {"frodo", "fradi", "crodo", "abc123", "frodoc"}, {"frodo", "fradi", "crodo", "abc123", "frodoc"}};
+        String[] user_id = {"frodo", "fradi", "crodo", "abc123", "frodoc"};
         String[][] banned_id = {{"fr*d*", "abc1**"}, {"*rodo", "*rodo", "******"}, {"fr*d*", "*rodo", "******", "******"}};
-        for (int i = 0; i < user_id.length; i++) {
-            System.out.println(q3.solution(user_id[i], banned_id[i]));
+        for (int i = 0; i < banned_id.length; i++) {
+            System.out.println(q3.solution(user_id, banned_id[i]));
         }
 
 
