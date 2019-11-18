@@ -3,7 +3,7 @@
     Date: 2019.11.16.
     Time: 12:01 AM
     java/P15651.java
-    http://www.acmicpc.net/problem/P15652
+    http://www.acmicpc.net/problem/15652
     BOJ_P15651_N과 M (4)
 ** */
 package net.acmicpc.dfs;

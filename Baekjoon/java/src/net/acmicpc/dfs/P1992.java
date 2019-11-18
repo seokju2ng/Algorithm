@@ -3,7 +3,7 @@
     Date: 2019.11.15.
     Time: 1:19 AM
     java/P1992.java
-    http://www.acmicpc.net/problem/P1992
+    http://www.acmicpc.net/problem/1992
     BOJ_P1992_쿼드트리
 ** */
 package net.acmicpc.dfs;
