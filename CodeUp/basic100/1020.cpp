@@ -7,6 +7,6 @@
 int main() {
     int front, back;
     scanf("%d-%d", &front, &back);
-    printf("%d%d", front, back);
+    printf("%06d%06d", front, back);
     return 0;
 }
