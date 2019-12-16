@@ -3,4 +3,4 @@ project(CodeUp)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(CodeUp basic100/1024.cpp)
+add_executable(CodeUp basic100/1025.cpp)
