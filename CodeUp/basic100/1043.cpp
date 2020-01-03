@@ -1,5 +1,5 @@
 // CodeUp/1043.cpp
-// 작성자: 김석중. 작성일자: 2020.01.03.
+// 작성자: 김석중. 작성일자: 2020.01.01.
 // https://codeup.kr/problem.php?id=1043
 
 #include <stdio.h>
