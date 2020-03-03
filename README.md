@@ -10,9 +10,11 @@
 <br>
 
 ### 알고리즘 공부하는 사이트(Reference Website with Algorithm practice problem)
-  1. Baekjoon Online Judge : https://www.acmicpc.net/user/ehddnwnd
-  2. Programmers Coding Test Practice : https://programmers.co.kr/learn/challenges
-
+  * Baekjoon Online Judge [Website](https://www.acmicpc.net/user/ehddnwnd)
+    * [C++ source directory](https://github.com/seokju2ng/Algorithm/tree/master/Baekjoon/cpp)
+    * [java source directory](https://github.com/seokju2ng/Algorithm/tree/master/Baekjoon/java/src/net/acmicpc)
+  * Programmers Coding Test Practice [Website](https://programmers.co.kr/learn/challenges)
+    * [source directory](https://github.com/seokju2ng/Algorithm/tree/master/ProgrammersPractice/src)
 <br>
 
 ### 풀어본 코딩테스트(Coding Tests I solved)
