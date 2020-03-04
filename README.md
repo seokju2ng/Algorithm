@@ -15,7 +15,7 @@
     * [java source directory](https://github.com/seokju2ng/Algorithm/tree/master/Baekjoon/java/src/net/acmicpc)
   * Programmers Coding Test Practice [Website](https://programmers.co.kr/learn/challenges)
     * [source directory](https://github.com/seokju2ng/Algorithm/tree/master/ProgrammersPractice/src)
-  * CodeUp [WebSite](https://codeup.kr/status.php?user_id=ehddnwnd)
+  * CodeUp [WebSite](https://codeup.kr/userinfo.php?user=ehddnwnd)
     * [source directory](https://github.com/seokju2ng/Algorithm/tree/master/CodeUp)
 <br>
 
