@@ -120,6 +120,7 @@ hs_err_pid*
 
 ### CMake ###
 CMakeLists.txt.user
+CMakeLists.txt
 CMakeCache.txt
 CMakeFiles
 CMakeScripts
