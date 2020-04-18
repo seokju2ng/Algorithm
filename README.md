@@ -26,6 +26,8 @@
   4. NAVER Hack Day / 3문제 120분 / 19.10.12
   5. Programmers Winter Coding / 4문제 120분 / 19.10.26
   6. KAKAO 인턴 코딩 테스트 / 5문제 240분 / 19.11.09
+  7. 2020 SW개발 신입 LINER 공개채용 코딩테스트 / 6문제 150분 / 20.04.05
+  8. 2020 Dev-Matching: 웹 백엔드 개발자 / 3문제 SQL 1문제 120분 / 20.04.18
 
 ***
 <p align="center">Copyright&copy; Seokjung Kim. All rights reserved.</p>
