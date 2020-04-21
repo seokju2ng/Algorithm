@@ -27,6 +27,13 @@ public class Main {
 //        }
 //        System.out.println();
 //
+        System.out.println("Q3 >");
+        System.out.println(new Q3().solution("11011110011111011111100011111", 3));
+        System.out.println(new Q3().solution("001100", 5));
+
+
+
+
 //        String[][] snapshots = {
 //                {"ACCOUNT1", "100"},
 //                {"ACCOUNT2", "150"},
@@ -63,22 +70,22 @@ public class Main {
 //        }
 
 
-        Q6 q6 = new Q6();
-        String[] directory = {
-        "/",
-                "/hello",
-                "/hello/tmp",
-                "/root",
-                "/root/abcd",
-                "/root/abcd/etc",
-                "/root/abcd/hello"
-    };
-        String[] command = {
-        "mkdir /root/tmp",
-                "cp /hello /root/tmp",
-                "rm /hello"
-    };
-        String[] result = q6.solution(directory, command);
+//        Q6 q6 = new Q6();
+//        String[] directory = {
+//        "/",
+//                "/hello",
+//                "/hello/tmp",
+//                "/root",
+//                "/root/abcd",
+//                "/root/abcd/etc",
+//                "/root/abcd/hello"
+//    };
+//        String[] command = {
+//        "mkdir /root/tmp",
+//                "cp /hello /root/tmp",
+//                "rm /hello"
+//    };
+//        String[] result = q6.solution(directory, command);
 //        for (int i = 0; i < result.length; i++) {
 //            System.out.println(result[i]);
 //        }
