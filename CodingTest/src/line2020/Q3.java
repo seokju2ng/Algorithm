@@ -3,31 +3,22 @@ package line2020;
 public class Q3 {
     private int longestLength = 0;
     public int solution(String road, int n) {
-        int zeroCnt = 0;
         char[] roadAry = road.toCharArray();
-
-        for (int i = 0; i < roadAry.length; i++) {
-            if (road.charAt(i) == '0') {
-                zeroCnt++;
-            }
-        }
-
-        if (n >= zeroCnt) {
-            return roadAry.length;
-        }
         dfs(roadAry, n, 0);
         return longestLength;
     }
 
     private void dfs(char[] road, int n, int idx) {
-        if (n == 0) {
+        if (n == 0 || idx >= road.length) {
+//            System.out.printf("n = %d, idx = %d, ", n, idx);
+//            for (char c : road) {
+//                System.out.print(c);
+//            }
             int l = longestRoad(road);
             if (longestLength < l){
                 longestLength = l;
             }
-            return;
-        }
-        if (idx >= road.length) {
+//            System.out.println(", l = "+l+", longest = "+longestLength);
             return;
         }
 
@@ -53,6 +44,7 @@ public class Q3 {
                 length = 0;
             }
         }
-        return max;
+
+        return max == 0 ? length : max;
     }
 }
