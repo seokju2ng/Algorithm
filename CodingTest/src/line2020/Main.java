@@ -6,15 +6,16 @@ package line2020;
 
 public class Main {
     public static void main(String[] args) {
-//        Q1 q1 = new Q1();
-//        String[] inputStrings = {"Hello, world",
-//                                "line [plus]",
-//                                "if (Count of eggs is 4.) {Buy milk.}",
-//                                ">_<"};
-//        System.out.println("Q1 > ");
-//        for (int i = 0; i < inputStrings.length; i++)
-//            System.out.println(q1.solution(inputStrings[i]));
-//        System.out.println();
+        Q1 q1 = new Q1();
+        String[] inputStrings = {"Hello, world",
+                                "line [plus]",
+                                "if (Count of eggs is 4.) {Buy milk.}",
+                                ">_<",
+                                "{ ( }"};
+        System.out.println("Q1 > ");
+        for (int i = 0; i < inputStrings.length; i++)
+            System.out.println(q1.solution(inputStrings[i]));
+        System.out.println();
 //
 //        Q2 q2 = new Q2();
 //        String[] answer_sheet = {"4132315142", "53241", "24551"};

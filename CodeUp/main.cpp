@@ -1,6 +1,8 @@
-#include <iostream>
+#include <stdio.h>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    int a = 0x80000000;
+    int b = 0x7fffffff;
+    printf("%d %d", a,b);
     return 0;
 }

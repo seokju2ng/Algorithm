@@ -41,7 +41,7 @@ public class Q2 {
         return suspiciousPoint + consecutiveSusp * consecutiveSusp;
     }
 
-    boolean isSuspicious(char answer, char a, char b){
+    boolean isSuspicious(char answer, char a, char b) {
         return (answer != a) && (a == b);
     }
 
