@@ -29,6 +29,7 @@
   7. 2020 SW개발 신입 LINER 공개채용 코딩테스트 / 6문제 150분 / 20.04.05
   8. 2020 Dev-Matching: 웹 백엔드 개발자 / 3문제 SQL 1문제 120분 / 20.04.18
   9. 2020 Summer Coding: 여름방학 스타트업 인턴 프로그램 / 3문제 SQL 1문제 120분 / 20.05.23
+  10. 2020 Boost Camp 1차 온라인 코딩테스트 / 2문제 120분 / 20.07.04
 
 ***
 <p align="center">Copyright&copy; Seokjung Kim. All rights reserved.</p>
