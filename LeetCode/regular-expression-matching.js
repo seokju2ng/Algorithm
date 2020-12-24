@@ -1,10 +1,6 @@
 // https://leetcode.com/problems/regular-expression-matching/
 
-const isMatch = (s, p) => {
-    const res = new RegExp(p).exec(s);
-    if (!res) return false;
-    return res[0] === s;
-};
+const isMatch = (s, p) => !!new RegExp(`^${p}$`).exec(s);
 
 
 // input
