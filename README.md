@@ -4,12 +4,12 @@
 
 <br>
 
-### 사용 언어(Languages I use)
+## 사용 언어(Languages I use)
 `Java` `JavaScript` `C` `C++` `MySQL` `Markdown`
 
 <br>
 
-### 알고리즘 공부하는 사이트(Reference Website with Algorithm practice problem)
+## 알고리즘 공부하는 사이트(Reference Website with Algorithm practice problem)
   * Baekjoon Online Judge [Website](https://www.acmicpc.net/user/ehddnwnd)
     * [C++ source directory](https://github.com/seokju2ng/Algorithm/tree/master/Baekjoon/cpp)
     * [java source directory](https://github.com/seokju2ng/Algorithm/tree/master/Baekjoon/java/src/net/acmicpc)
@@ -21,7 +21,7 @@
     * [source directory](https://github.com/seokju2ng/Algorithm/tree/master/LeetCode)
 <br>
 
-### 풀어본 코딩테스트(Coding Tests I solved)
+## 풀어본 코딩테스트(Coding Tests I solved)
   1. LINE SW개발 DEVEL-UP 인턴십 공채 / 6문제 180분 / 19.09.22
   2. NAVER 개발직군 신입 공채 / 3문제 120분 / 19.09.22
   3. Programmers Web Developer Online Jobfair / 3문제 120분 / 19.09.28
@@ -34,5 +34,6 @@
   10. 2020 Boost Camp 1차 온라인 코딩테스트 / 2문제 120분 / 20.07.04
   11. 2020 Boost Camp 2차 온라인 코딩테스트 / 2문제 150분 / 20.07.11
 
+<br><br>
 ***
-<p align="center">Copyright&copy; Seokjung Kim. All rights reserved.</p>
+author: [@seokju2ng](https://github.com/seokju2ng)
