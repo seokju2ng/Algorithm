@@ -1,24 +1,22 @@
 // https://leetcode.com/problems/longest-consecutive-sequence/
 
 const longestConsecutive = nums => {
-    const set = new Set(nums);  // 중복 제거
-    let result = 0;             // 가장 긴 길이를 저장할 변수
+  // 데이터 중복 제거 후 정렬
+  const sortedSet = Array.from(new Set(nums)).sort((a, b) => a - b);
 
-    set.forEach(num => {  // set을 돌면서 연속된 순열의 시작 원소를 찾음
-      if (set.has(num - 1)) return; // 나보다 1 작은 수가 있으면 일 안함
+  let tempLength = 1;       // 연속 길이 저장용 변수
+  let tempNum = undefined;  // 이전 숫자 저장용 변수
 
-      let tempLength = 1;
-      let tempNum = num + 1;
-
-      while (set.has(tempNum)) {  // 나보다 1 큰 수가 있으면
-        tempLength++; // 길이 1 증가
-        tempNum++;    // 숫자 1 증가
-      }
-
-      result = Math.max(result, tempLength); // 가장 긴 길이를 넘었으면 값 변경
-    })
-    return result;
+  return sortedSet.reduce((longestLength, num) => {
+    // 연속된 숫자라면 1 증가, 아니라면 1로 초기화
+    tempLength = tempNum + 1 === num ? tempLength + 1 : 1;
+    // 이전 숫자 저장
+    tempNum = num;
+    // 두 변수 중 더 큰 수를 저장
+    return Math.max(longestLength, tempLength);
+  }, 0);
 };
+
 
 // input
 const nums = [
