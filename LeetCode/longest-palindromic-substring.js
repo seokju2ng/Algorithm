@@ -7,10 +7,12 @@ const longestPalindrome = s => {
 
   const isPalindrome = (a, b) => s[a] === s[b];
 
+  const isLongerThanResult = (a, b) => result.length <= b - a;
+
   const dfs = (left, right) => {
     if (!isRange(left, right) || !isPalindrome(left, right)) return;
 
-    if (result.length <= right - left) {
+    if (isLongerThanResult(left, right)) {
       result = s.substring(left, right + 1);
     }
     dfs(left - 1, right + 1);
