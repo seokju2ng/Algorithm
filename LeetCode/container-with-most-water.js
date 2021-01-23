@@ -2,14 +2,18 @@
 
 const maxArea = height => {
   let max = 0;
+  let left = 0;
+  let right = height.length - 1;
 
-  for (let i = 0; i < height.length - 1; i++) {
-    for (let j = i + 1; j < height.length; j++) {
-      const w = j - i;
-      const h = Math.min(height[i], height[j]);
-      max = Math.max(max, w * h);
-    }
+  while (left !== right) {
+    const w = right - left;
+    const h = Math.min(height[left], height[right]);
+    max = Math.max(max, w * h);
+
+    if (height[left] > height[right]) right--;
+    else left++;
   }
+
   return max;
 }
 
